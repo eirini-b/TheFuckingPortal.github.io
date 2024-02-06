@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: system-ui;
+}
+
+.hero {
+    background-color: grey;
+    background-image: url("images/girl_sipping_alcohol_beach.jpeg");
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+
+    padding-top: 400px;
+    padding-bottom: 200px;
+}
+
+.container {
+    text-align: right;
+    color: whitesmoke;
+    /* background-color: rgba(51, 170, 51, .05); */
+}
