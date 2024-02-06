@@ -9,7 +9,7 @@ body {
     color: black;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: 100vw;
     background-blend-mode: multiply;
 
     padding-top: 400px;
