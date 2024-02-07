@@ -5,7 +5,7 @@ body {
 }
 
 .hero {
-    background-color: grey;
+    background-color: #516a77;
     background-image: url("images/girl_sipping_alcohol_beach.jpeg");
     color: white;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body {
 
 @media (width <=750px) {
     .hero {
-        background-color: grey;
+        background-color: #516a77;
         background-image: url("images/girl_sipping_alcohol_beach.jpeg");
         color: black;
         background-repeat: no-repeat;
