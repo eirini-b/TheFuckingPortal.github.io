@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: system-ui;
-    background-color: #516a77;
+    /* background-color: grey; */
 }
 
 .hero {
@@ -35,4 +35,42 @@ body {
     text-align: right;
     color: whitesmoke;
     /* background-color: rgba(51, 170, 51, .05); */
+}
+
+h1 {
+    font-size: 2.5rem;
+    letter-spacing: -.02em;
+    margin-top: 0;
+    margin-bottom: 0.4em;
+    font-size: 2.375rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+h2 {
+    font-size: 2.125rem;
+    letter-spacing: -.02em;
+    margin-top: 0;
+    margin-bottom: 0.4em;
+    font-size: 2.375rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+p {
+    color: rgb(59, 59, 59);
+    letter-spacing: .1px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.main_content {
+    margin: 20px;
+    padding: 20px 100px 100px 100px;
+
 }
