@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: system-ui;
-    /* background-color: grey; */
+    background-color: #FCFAFA; 
 }
 
 .hero {
@@ -28,12 +28,13 @@ body {
         padding-top: 200px;
         padding-bottom: 200px;
     }
+
 }
 
 
 .container {
     text-align: right;
-    color: whitesmoke;
+    color: FCFAFA;
     /* background-color: rgba(51, 170, 51, .05); */
 }
 
@@ -49,13 +50,24 @@ h1 {
 
 
 h2 {
-    font-size: 2.125rem;
+    font-size: 2.0rem;
     letter-spacing: -.02em;
     margin-top: 0;
     margin-bottom: 0.4em;
-    font-size: 2.375rem;
     font-weight: 500;
     line-height: 1.2;
+}
+
+/* paragraphs with dark background (e.g. in the error page) */
+#white_paragraph {
+    color: #FCFAFA; 
+    letter-spacing: .1px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
 }
 
 p {
@@ -74,3 +86,67 @@ p {
     padding: 20px 100px 100px 100px;
 
 }
+
+@media (width <=750px) {
+    .main_content {
+        margin: 20px;
+        padding: 10px 10px 10px 10px;}
+
+    h1 {
+        font-size: 1.5rem;
+        letter-spacing: -.02em;
+        margin-top: 0;
+        margin-bottom: 0.4em;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        letter-spacing: -.02em;
+        margin-top: 0;
+        margin-bottom: 0.4em;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    p {
+        color: rgb(59, 59, 59);
+        letter-spacing: .1px;
+        margin-top: 16px;
+        margin-bottom: 32px;
+        font-family: Inter, sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+}
+
+.button_primary{
+    background-color: #560BAD; 
+    border: #5200af; 
+    border-radius: 12px;
+    color: #fcfafa;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+@media (width <=750px) {
+    .button_primary {
+        font-size: 12px;
+        padding: 12px 12px;
+    }
+}
+  .button_primary:hover{
+    background-color: #33006d; 
+    border: #5200af; 
+    /* border-radius: 12px;
+    color: #fcfafa;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px; */
+      
+  }
