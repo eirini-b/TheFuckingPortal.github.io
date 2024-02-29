@@ -150,3 +150,64 @@ p {
     font-size: 20px; */
       
   }
+
+
+.rocketContent{
+  top: 50%;
+  left: 10%;
+  position: absolute;
+  transform: translateY(-50%);
+  color: #FCFAFA;
+}
+
+.rocketContent h1{
+        font-size: 64px;
+        font-weight: 600;
+}
+
+.rocketContent h1 span {
+    color: #7e2b1e
+}
+
+.rocketContent button{
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 12px 25px;
+    color: #fff;
+
+}
+
+.launch-time{
+    display:flex;
+    color: #FCFAFA; 
+}
+
+.launch-time div{
+    flex-basis: 100px;
+}
+
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+
+.rocket {
+    width: 250px;
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+    animation: rocket 4s linear infinite;
+}
+
+@keyframes rocket{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom: 105%;
+        opacity: 1;
+    }
+
+}
