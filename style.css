@@ -70,22 +70,11 @@ h2 {
     line-height: 1.5;
 }
 
-p {
-    color: rgb(59, 59, 59);
-    letter-spacing: .1px;
-    margin-top: 16px;
-    margin-bottom: 32px;
-    font-family: Inter, sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-}
-
 .main_content {
     margin: 20px;
     padding: 20px 100px 100px 100px;
 
-}
+} 
 
 @media (width <=750px) {
     .main_content {
@@ -109,16 +98,7 @@ p {
         font-weight: 500;
         line-height: 1.2;
     }
-    p {
-        color: rgb(59, 59, 59);
-        letter-spacing: .1px;
-        margin-top: 16px;
-        margin-bottom: 32px;
-        font-family: Inter, sans-serif;
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 1.5;
-    }
+
 }
 
 .button_primary{
@@ -138,7 +118,8 @@ p {
         padding: 12px 12px;
     }
 }
-  .button_primary:hover{
+
+.button_primary:hover{
     background-color: #33006d; 
     border: #5200af; 
     /* border-radius: 12px;
@@ -151,22 +132,22 @@ p {
       
   }
 
-
+@media (width>750px){
 .rocketContent{
   top: 50%;
   left: 10%;
   position: absolute;
   transform: translateY(-50%);
-  color: #FCFAFA;
+  color: #f1f0f0;
 }
 
 .rocketContent h1{
         font-size: 64px;
-        font-weight: 600;
+        font-weight: 800;
 }
 
 .rocketContent h1 span {
-    color: #7e2b1e
+    color: rgb(204,180,100)
 }
 
 .rocketContent button{
@@ -199,6 +180,57 @@ p {
     bottom: 0;
     animation: rocket 4s linear infinite;
 }
+}
+
+@media (width<=750px){
+    .rocketContent{
+      top: 50%;
+      left: 10%;
+      position: absolute;
+      transform: translateY(-50%);
+      color: #f1f0f0;
+    }
+    
+    .rocketContent h1{
+            font-size: 32px;
+            font-weight: 600;
+    }
+    
+    .rocketContent h1 span {
+        color: rgb(204,180,100)
+    }
+    
+    .rocketContent button{
+        background: transparent;
+        border: 2px solid #fff;
+        outline: none;
+        padding: 12px 25px;
+        color: #fff;
+    
+    }
+    
+    .launch-time{
+        display:flex;
+        color: #FCFAFA; 
+    }
+    
+    .launch-time div{
+        flex-basis: 100px;
+    }
+    
+    .launch-time div p{
+        font-size: 32px;
+        margin-bottom: -8px;
+    }
+    
+    .rocket {
+        width: 80px;
+        position: absolute;
+        right: 5%;
+        bottom: 0;
+        animation: rocket 4s linear infinite;
+    }
+    }
 
 @keyframes rocket{
     0%{
